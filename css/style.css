@@ -1,0 +1,32 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.container{
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-image: linear-gradient(to right rgb(213,213,227), rgb(160, 160, 217));
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.weather-app{
+	height: 240px;
+	width: 400px;
+	background-color: white;
+	border-radius: 20px;
+	overflow: hidden;
+	padding: 20px;
+}
+
+#cityname{
+	border: none;
+	outline: none;
+	border-bottom: 2px solid black;
+}
